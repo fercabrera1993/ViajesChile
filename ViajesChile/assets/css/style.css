@@ -1,0 +1,23 @@
+body{
+    font-family: 'Montserrat', sans-serif; /*Light: 300, Regular: 400*/
+}
+
+/*HEADER*/
+.cortar-foto {
+    width: 100vw; /*Ancho pantalla*/
+    height: 100vh; /*Alto pantalla*/
+    object-fit: cover;
+    object-position: 99% 5%; /* try 20px 10px */ 
+}
+
+/*NAVBAR TAMAÑO FUENTE*/
+.navbar{
+    font-size: 10pt;
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    font-size: 12pt;
+    color: white !important;
+
+}
