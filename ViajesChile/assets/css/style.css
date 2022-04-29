@@ -1,23 +1,66 @@
 body{
     font-family: 'Montserrat', sans-serif; /*Light: 300, Regular: 400*/
+    color: white;
 }
 
-/*HEADER*/
 .cortar-foto {
     width: 100vw; /*Ancho pantalla*/
     height: 100vh; /*Alto pantalla*/
     object-fit: cover;
-    object-position: 99% 5%; /* try 20px 10px */ 
+    object-position: 99% 5%;
 }
 
-/*NAVBAR TAMAÑO FUENTE*/
-.navbar{
+
+.bg-dark{
     font-size: 10pt;
     background-color: transparent !important;
 }
 
-.navbar-brand{
+
+.navbar-brand {
     font-size: 12pt;
     color: white !important;
+}
+.nav-link{
+    color: white;
+}
+.barra-icono{
+    padding: 12px;
+}
+
+.quienes-somos{
+    background-color: black;
+    font-size: 10pt;
+}
+
+h1{
+    font-size: 18pt;
+}
+
+.btn{
+    color: white;
+}
+
+.destacados{
+    background-color: black;
+    font-size: 10pt;
+}
+
+.contacto{
+    background-color: black;
+    font-size: 10pt;
+}
+
+.datos-footer{
+    font-size: 20pt;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+.iconos-footer i{
+    float: right;
+    padding-left: 10px;
+}
+
